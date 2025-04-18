@@ -1,0 +1,71 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+    font-size: 1.6rem;
+    background-image: radial-gradient( circle 950px at 2.5% 8%,  rgba(44,103,176,1) 0%, rgba(35,56,136,1) 90% );
+    color: white;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.contener-flex{
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+}
+
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.datos{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_2{
+    flex: 1 1 0;
+}
+
+.img_3{
+    flex: 1 1 0; 
+}
+
+.logo{
+    width: 15rem;
+    height: 15rem;
+}
